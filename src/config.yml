@@ -1,0 +1,29 @@
+#ChatCmd By KazuhaAyato
+#v1.5.0 Fixed Some Bugs
+#https://github.com/KazuhaAyato/ChatCMD
+commands:
+  1:
+    keyword: "killme"
+    alias:
+      - "suicide"
+      - "杀我"
+      - "橄榄我"
+      - "冲我"
+      - "干我"
+    #关键词
+    mode: 2
+    slient: true
+    #1 = 玩家发送的消息含有关键词
+    #2 = 玩家必须发送关键词
+    command:
+      - "console:kill %target%"
+  2:
+    keyword: "我是傻逼"
+    alias:
+      - "傻逼"
+      - "SB"
+      - "我是傻逼"
+      - "wssb"
+    mode: 2
+    command:
+      - "console:bc 恭喜%tagert%成为了烧饼"
